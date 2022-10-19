@@ -1,0 +1,150 @@
+.cep-search-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 20px;
+}
+
+.cep-search-container h1 {
+  font-weight: bold;
+  text-align: left;
+  margin: 0px 0px 20px 0px;
+  font-size: 25px;
+}
+
+.search-container {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  padding: 30px 20px;
+  background-color: #e6f7ff;
+  border-radius: 5px;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+}
+
+.search-input {
+  background-color: #fff;
+  border: 1px solid #d9d9d9;
+  border-radius: 4px;
+  font-size: 16px;
+  text-align: left;
+  padding-left: 10px;
+  height: 40px;
+  width: 240px;
+  margin-bottom: 25px;
+}
+
+.search-input::placeholder {
+  color: #d3cccc;
+}
+
+.search-button {
+  height: 40px;
+  width: 101px;
+  margin-bottom: 35px;
+  color: #fff;
+}
+
+.result-card {
+  background-color: #f5f5f5;
+  border-radius: 5px;
+  margin-top: 20px;
+  padding: 20px;
+  text-align: center;
+}
+
+.perfil-description p {
+  font-size: 12px;
+  color: rgba(0, 41, 255, 1) ;
+}
+
+.result-card img {
+  width: 220px;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+
+.result-card-information {
+  background-color: #ffff;
+  border-radius: 5px;
+  padding: 10px;
+  border: 1px solid #D9D9D9 ;
+}
+
+.result-card-information h4 {
+  font-size: 20px;
+  color: #1890ff;
+  text-align: center;
+}
+
+@media (min-width: 576px) {
+  .search-input {
+    width: 480px;
+  }
+
+  .perfil-description p {
+    font-size: 14px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .result-card {
+    display: flex;
+    padding: 40px 30px 40px;
+    margin: 18px;
+  }
+
+  .search-container {
+    padding: 40px 30px 40px;
+  }
+
+  .result-card-information {
+    width: 902px;
+    height: 250px;
+    padding: 15px;
+  }
+
+  .result-card img {
+    width: 247px;
+    height: 247px;
+    margin-right: 30px;
+  }
+
+  .result-card-information h4 {
+    text-align: left;
+  }
+
+  .perfil-description p {
+    margin-bottom: 3px;
+  }
+}
+
+@media (min-width: 1280px) {
+  .result-card {
+    margin: 50px;
+  }
+
+}
+
+@media (min-width: 1920px) {
+  .result-card {
+    width: 1330px;
+    margin-left: 280px;
+    justify-content: center;
+  }
+
+}
+
+@media (min-width: 2560px) {
+  .result-card {
+   
+    margin-left: 595px;
+   
+  }
+
+}
