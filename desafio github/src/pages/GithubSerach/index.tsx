@@ -45,7 +45,7 @@ const GithubSearch = () => {
   };
 
   return (
-    <div className="cep-search-container">
+    <div className="profile-search-container">
       <div className="container search-container">
         <h1>Encontre um perfil GitHub</h1>
         <form onSubmit={handleSubmit}>
@@ -65,7 +65,6 @@ const GithubSearch = () => {
           </div>
         </form>
       </div>
-
      
         {information && (
           <>

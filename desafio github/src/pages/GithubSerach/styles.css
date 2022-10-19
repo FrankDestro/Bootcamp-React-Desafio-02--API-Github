@@ -1,11 +1,11 @@
-.cep-search-container {
+.profile-search-container {
   display: flex;
   flex-direction: column;
   justify-content: center;
   padding: 20px;
 }
 
-.cep-search-container h1 {
+.profile-search-container h1 {
   font-weight: bold;
   text-align: left;
   margin: 0px 0px 20px 0px;
@@ -147,4 +147,5 @@
    
   }
 
+  
 }
